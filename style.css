@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 115, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 201, 210);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 0,15px;
+    padding-right: 0,15px;
+}
+
+label{
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    
+}
+
+h2{
+    font-size: 35px;
+    color: rgb(2, 0, 9);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input{
+    margin: 0;
+}
+
+input:focus{
+    margin: 0;
+    outline: none;
+}
+
+.botao{
+    border-radius: 15px;
+
+}
