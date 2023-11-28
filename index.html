@@ -17,15 +17,16 @@
         <label for=" cep">Cep</label>
         <input type="text" id="cep" placeholder="Insira seu CEP">
         <label for="logradouro">Endereço</label>
-        <input type="text" id="logradouro" placeholder="Insira seu endereço">
+        <input type="text" id="logradouro" readonly>
         <label for="bairro">Bairro</label>
-        <input type="text" id="bairro" placeholder="Insira seu bairro">
+        <input type="text" id="bairro" readonly>
         <label for="cidade">Cidade</label>
-        <input type="text" id="cidade" placeholder="Insira sua cidade">
+        <input type="text" id="cidade" readonly>
         <label for="estado">Estado</label>
-        <input type="text" id="estado" placeholder="Insira seu estado"><br>
+        <input type="text" id="estado" readonly><br>
 
-        <input type="submit" onclick="ClicarBotao()" class="botao" id="submit">
+        <input type="submit" onclick="clicarBotao()" class="botao" id="submit" value="ENVIAR"><br>
+        <input type="submit" onclick="clicarBotaoApagar()" class="botaoApagar" id="apagar" value="APAGAR">
     </div>
     </main>
 
