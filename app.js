@@ -24,3 +24,9 @@ function clicarBotaoApagar() {
     document.getElementById("cep").value = null
 }
 
+document.addEventListener("keypress", function(e) {
+    if(e.key === "Enter") {
+        const btn = document.querySelector("#submit");
+        btn.click();
+    }
+})
