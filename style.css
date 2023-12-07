@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: rgb(10, 115, 57);
+    background: linear-gradient(120deg, rgba(0,0,36,1) 0%, rgba(41,212,83,0.8) 35%, rgba(103,230,179,0.7) 60%, rgba(200,255,213,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,16 @@ body{
 div{
     display: flex;
     flex-direction: column;
-    background-color: rgb(25, 201, 210);
-    padding: 40px;
+    background-color: white;
+    padding: 50px;
     border-radius: 20px;
-    margin-top: 10px;
-    padding-left: 0,15px;
-    padding-right: 0,15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 label{
-    color: rgb(0, 0, 0);
-    margin-top: 12px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
     
 }
 
@@ -40,6 +39,8 @@ h2{
 
 input{
     margin: 0;
+    padding: 5px;
+    font-size: 15px;
 }
 
 input:focus{
@@ -48,15 +49,26 @@ input:focus{
 }
 
 .botao{
-    border-radius: 15px;
-   
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(99, 4, 99);
+    color: white;
 
 }
 
 .botaoApagar{
-    border-radius: 15px;
-  
-
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(99, 4, 99);
+    color: white;
 }
 
 
